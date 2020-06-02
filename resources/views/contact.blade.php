@@ -12,7 +12,11 @@
         </div>
         <div class="form-group">
             <label for="subject">Введите тему сообщения</label>
-            <input type="text" name="name" placeholder="Тема сообщения" class="form-control">
+            <input type="text" name="subject" placeholder="Тема сообщения" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="email">Введите ваш email</label>
+            <input type="text" name="email" placeholder="Ваш email" class="form-control">
         </div>
         <div class="form-group">
             <label for="message">Введите сообщение</label>
@@ -20,6 +24,5 @@
         </div>
 
         <button type="submit" class="btn btn-success">Отправить</button>
-
     </form>
 @endsection

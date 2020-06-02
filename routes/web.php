@@ -18,6 +18,4 @@ Route::get('/soon', function () {
     return view('soon');
 })->name('soon');
 
-Route::post('/contact/create', function () {
-    dd(Request::all());
-})->name('contact-form');
+Route::post('/contact/submit', 'ContactController@submit')->name('contact-form');
