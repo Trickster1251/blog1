@@ -13,7 +13,6 @@
 <body>
 
 @include('includes.header')
-
     @if (Request::is('/'))
         @include('includes.hero')
     @endif

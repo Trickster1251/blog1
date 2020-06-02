@@ -14,6 +14,10 @@ Route::get('/contact', function () {
     return view('contact');
 })->name('contact');
 
+Route::get('/soon', function () {
+    return view('soon');
+})->name('soon');
+
 Route::post('/contact/create', function () {
     dd(Request::all());
 })->name('contact-form');

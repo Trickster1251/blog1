@@ -1,4 +1,4 @@
-{{--@section('hero')--}}
+@section('hero')
 <div class="jumpbotron">
     <div class="container">
         <h1>Привет всем на нашем сайте!</h1>
